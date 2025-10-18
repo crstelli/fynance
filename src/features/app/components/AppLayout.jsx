@@ -11,7 +11,7 @@ function AppLayout({ children }) {
       <MainCenter>
         <div className="grid h-full w-full max-w-[1200px] grid-cols-[auto_1fr] gap-4 p-4">
           <Sidebar />
-          <div className="grid grid-cols-2 gap-4 rounded-md bg-neutral-200 p-10">
+          <div className="grid h-full grid-cols-2 gap-4 rounded-md bg-neutral-200 p-10">
             {children}
           </div>
         </div>
