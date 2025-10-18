@@ -1,18 +1,18 @@
-import { Hero } from "../components/Hero";
+import { Form } from "../components/Form";
 
-import { ScreenLayout } from "../../shared/ui/ScreenLayout";
 import { Header } from "../../shared/ui/Header";
 import { MainCenter } from "../../shared/ui/MainCenter";
+import { ScreenLayout } from "../../shared/ui/ScreenLayout";
 
-function Landing() {
+function Login() {
   return (
     <ScreenLayout>
       <Header />
       <MainCenter>
-        <Hero />
+        <Form />
       </MainCenter>
     </ScreenLayout>
   );
 }
 
-export { Landing };
+export { Login };

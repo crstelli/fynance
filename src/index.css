@@ -6,3 +6,7 @@ body,
 #root {
   @apply min-h-screen w-full font-[Inter];
 }
+
+#sidebar .active {
+  @apply font-bold text-neutral-900;
+}
